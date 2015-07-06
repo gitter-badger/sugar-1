@@ -1,5 +1,7 @@
 ## Sugar
 
+[![Join the chat at https://gitter.im/remobjects/sugar](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/remobjects/sugar?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Sugar is a cross-platform compatibility base library for Oxygene and Hydrogene, to be used with all three platform flavors of the compiler — Echoes, Cooper and Nougat — to provide a common API to frequently used base classes (such as list, dictionaries, strings, etc) on all three environments.
 
 This will be achieved thru mapped classes that "translate" the framework-provided classes (such as java.util.Dictionary, System.Collections.Generic.Dictionary&lt;T, U> or NSMutableDictionary, for example) to a shared API, and extension methods that will add common methods and operations on simple objects such as strings and integers. 
